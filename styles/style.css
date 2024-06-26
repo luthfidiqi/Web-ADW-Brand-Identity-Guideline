@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Inter Tight", sans-serif;
+}
+
+nav {
+    position: sticky !important;
+    top: 0;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #D7DAE2;
+}
+
+.navbar-brand img {
+    height: 24px;
+}
+
+.nav-link {
+    color: #2B2D33;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 16px !important;
+}
+
+.nav-link:hover {
+    font-size: 14px;
+    color: #005DB5;
+    font-weight: normal;
+}
+
+header {
+    height: 100vh;
+    background-image: url("../images/header-bg.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 45px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+header p {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+header .btn {
+    color: #023E78;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#who-we-are {
+    height: 100%;
+    background-color: #EEF7FF;
+    /* background-image: url("../images/sub-bg.png"); */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#who-we-are  h2 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #2B2D33;
+    margin-bottom: 64px;
+}
+
+#who-we-are img {
+    height: 400px;
+    margin-right: 100px;
+}
+
+.who-p-thin {
+    font-size: 16px;
+    color: #555A65;
+    font-weight: normal;
+    margin-bottom: 28px;
+}
+
+.who-p-bold {
+    font-size: 24px;
+    color: #2B2D33;
+    font-weight: bold;
+}
+
+#our-values {
+    height: 100%;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#our-values  h2 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #2B2D33;
+    margin-bottom: 0;
+}
+
+.value-subtitle {
+    font-size: 16px;
+    color: #555A65;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.values-card h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2B2D33;
+}
+
+.values-card ul li{
+    font-size: 16px;
+    font-weight: normal;
+    color: #555A65;
+}
+
+#persona {
+    height: 100%;
+    background-color: #EEF7FF;
+    /* background-image: url("../images/sub-bg.png"); */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#persona  h2 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #2B2D33;
+    margin-bottom: 64px;
+}
+
+#persona img {
+    height: 450px;
+    margin-left: 100px;
+}
+
+#brand {
+    height: 100%;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#brand  h2 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #2B2D33;
+    margin-bottom: 64px;
+}
+
+#brand img {
+    height: 64px;
+}
+
+#brand h3 {
+    color: #2B2D33;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#brand p {
+    color: #555A65;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#brand a {
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Remove underline */
+    font-size: inherit; /* Inherit font size from parent element */
+    font-weight: inherit; /* Inherit font weight from parent element */
+    font-family: inherit; /* Inherit font family from parent element */
+    background: none; /* Remove background color */
+    border: none; /* Remove border */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+#brand a:hover {
+    background-color: #F7F8FA;
+    border-radius: 20px;
+}
+
+footer {
+    height: 40vh;
+    background-image: url("../images/footer-bg.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+}
+
+footer .nav-link {
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+}
+
+footer .nav-link:hover {
+    font-size: 14px;
+    color: #24A3F2;
+    font-weight: normal;
+}
+
+footer img {
+    height: 24px;
+}
