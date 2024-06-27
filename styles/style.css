@@ -333,6 +333,10 @@ footer img {
     align-items: center;
 }
 
+.breadcrumb a {
+    text-decoration: none;
+}
+
 .breadcrumb p {
     margin: 0;
     font-size: 14px;
