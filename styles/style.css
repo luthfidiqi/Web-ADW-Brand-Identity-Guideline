@@ -70,7 +70,6 @@ header .btn {
 #who-we-are {
     height: 100%;
     background-color: #EEF7FF;
-    /* background-image: url("../images/sub-bg.png"); */
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -136,7 +135,6 @@ header .btn {
 #persona {
     height: 100%;
     background-color: #EEF7FF;
-    /* background-image: url("../images/sub-bg.png"); */
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -160,7 +158,7 @@ header .btn {
     padding-bottom: 100px;
 }
 
-#brand  h2 {
+#brand h2 {
     font-size: 55px;
     font-weight: bold;
     color: #2B2D33;
@@ -184,15 +182,15 @@ header .btn {
 }
 
 #brand a {
-    color: inherit; /* Inherit color from parent element */
-    text-decoration: none; /* Remove underline */
-    font-size: inherit; /* Inherit font size from parent element */
-    font-weight: inherit; /* Inherit font weight from parent element */
-    font-family: inherit; /* Inherit font family from parent element */
-    background: none; /* Remove background color */
-    border: none; /* Remove border */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit; 
+    font-weight: inherit; 
+    font-family: inherit; 
+    background: none; 
+    border: none;
+    padding: 0; 
+    margin: 0;
 }
 
 #brand a:hover {
