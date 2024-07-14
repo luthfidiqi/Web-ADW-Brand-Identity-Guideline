@@ -392,3 +392,125 @@ footer img {
 .prev img{
     rotate: 180deg;
 }
+
+.navbar-collapse {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-nav {
+    background-color: white; 
+}
+
+/* Responsive */
+
+@media screen and (max-width: 991px) {
+    .navbar-collapse {
+        width: 100vw;
+        display:block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .who-we-are {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .who-we-are img {
+        margin: 0px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .our-values {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .values-card-parent {
+        flex-direction: column;
+    }
+
+    .persona {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .persona img {
+        margin: 0px !important;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .values-card {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    #who-we-are img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #persona img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #who-we-are,
+    #our-values,
+    #persona,
+    #brand {
+        text-align: center;
+    }
+
+    #who-we-are h2,
+    #our-values h2,
+    #persona h2,
+    #brand h2 {
+        font-size: 40px;
+    }
+
+    .me-auto {
+        width: 100%;
+        margin: 0px !important;
+        text-align: center;
+    }
+
+    #our-values ul {
+        padding: 0px !important;
+    }
+
+    #our-values ul li {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #header {
+        padding: 0 5%;
+    }
+
+    #header h1 {
+        font-size: 40px;
+    }
+
+    #header p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+}
